@@ -1,0 +1,6 @@
+.item-display {
+  display:flex;
+  border:2px solid black;
+  flex-direction: column;
+  background-color: black;
+}
