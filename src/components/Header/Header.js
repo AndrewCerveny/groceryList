@@ -1,10 +1,18 @@
 import React from "react";
 import './Header.css';
-import  shopper from '../../images/shopping.jpg'
+import  phone from '../../images/phoneCall.png';
+import message from '../../images/message.png';
 const Header = () => {
   return(
     <section className="intro"> 
-      <h1> Honey! Don't forget 🍞!!! </h1>
+      <div className="intro-wrapper">
+        <img className='message-img'src={message} alt='smartphone text bubble'/>
+        <img className="phone-img"src={phone} alt='picture of iphone'/>
+      </div>
+      <div className="message-wrap"> 
+        <h1> Honey.... </h1>
+        <h2> Don't forget the shopping list!</h2>
+      </div>
     </section>
   )
 }

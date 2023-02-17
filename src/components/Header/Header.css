@@ -1,13 +1,24 @@
 
 .intro{
-  background-image: url('../../images/wholesale.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 50%;
-  
-  
+  height: 25%;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
 }
-.photo-placement{
-  position: relative;
-  left:40%;
+.phone-img {
+  height:10rem;
 }
+.message-wrap{
+  color:white;
+  border: 1px solid white;
+  margin-left: -13%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-color: #1982FC;
+  box-shadow: 2px 2px 25px white;
+}
+
